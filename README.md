@@ -11,3 +11,7 @@ Install mocha using `npm run -g mocha chai`
 ## Running
 
 The package.json is not modified initially. Add the `test` script and run `npm run test` to run all the test cases.
+
+## CI
+
+The project also has integration with CircleCI using the `.circleci/config.yml` file to run on every pull request.
